@@ -44,7 +44,6 @@ public class BurgerTest {
 
     @Test
     public void testPriceCalculation() {
-        // Удалена строка: RestAssured Mockito;
 
         Bun mockBun = mock(Bun.class);
         when(mockBun.getPrice()).thenReturn(bunPrice);
