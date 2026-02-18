@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BurgerPriceTest" time="1.225" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BurgerPriceTest" time="0.165" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/Diplom/Diplom_1/target/surefire/surefirebooter-20260217103759738_3.jar /Users/Diplom/Diplom_1/target/surefire 2026-02-17T10-37-58_727-jvmRun1 surefire-20260217103759738_1tmp surefire_0-20260217103759738_2tmp"/>
+    <property name="sun.java.command" value="/Users/Diplom/Diplom_1/target/surefire/surefirebooter-20260218144119500_3.jar /Users/Diplom/Diplom_1/target/surefire 2026-02-18T14-41-18_947-jvmRun1 surefire-20260218144119500_1tmp surefire_0-20260218144119500_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/Diplom/Diplom_1/target/test-classes:/Users/Diplom/Diplom_1/target/classes:/Users/anastasiaancilenko/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/anastasiaancilenko/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/anastasiaancilenko/.m2/repository/io/qameta/allure/allure-junit4/2.17.0/allure-junit4-2.17.0.jar:/Users/anastasiaancilenko/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/anastasiaancilenko/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/anastasiaancilenko/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/anastasiaancilenko/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/anastasiaancilenko/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/anastasiaancilenko/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/anastasiaancilenko/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/anastasiaancilenko/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/anastasiaancilenko/.m2/repository/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar:/Users/anastasiaancilenko/.m2/repository/org/aspectj/aspectjweaver/1.9.25.1/aspectjweaver-1.9.25.1.jar:/Users/anastasiaancilenko/.m2/repository/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar:/Users/anastasiaancilenko/.m2/repository/org/mockito/mockito-core/5.21.0/mockito-core-5.21.0.jar:/Users/anastasiaancilenko/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/Users/anastasiaancilenko/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.7/byte-buddy-agent-1.17.7.jar:/Users/anastasiaancilenko/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/anastasiaancilenko/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/anastasiaancilenko/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/anastasiaancilenko/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/anastasiaancilenko/.m2/repository/io/qameta/allure/allure-java-commons/2.32.0/allure-java-commons-2.32.0.jar:/Users/anastasiaancilenko/.m2/repository/io/qameta/allure/allure-model/2.32.0/allure-model-2.32.0.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/Diplom/Diplom_1/target/surefire/surefirebooter-20260217103759738_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Diplom/Diplom_1/target/surefire/surefirebooter-20260218144119500_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.28+6-LTS"/>
@@ -63,7 +63,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testPriceCalculation[Булочка цена=1,5, Ингредиент цена=0,5, Ожидаемая сумма=4]" classname="BurgerPriceTest" time="0.242">
+  <testcase name="testPriceCalculation[Булочка цена=1,5, Ингредиент цена=0,5, Ожидаемая сумма=4]" classname="BurgerPriceTest" time="0.046">
     <failure message="expected:&lt;4.0&gt; but was:&lt;3.5&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4.0> but was:<3.5>
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -109,6 +109,6 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
   </testcase>
-  <testcase name="testPriceCalculation[Булочка цена=2, Ингредиент цена=1, Ожидаемая сумма=5]" classname="BurgerPriceTest" time="0.115"/>
-  <testcase name="testPriceCalculation[Булочка цена=1, Ингредиент цена=2, Ожидаемая сумма=4]" classname="BurgerPriceTest" time="0.127"/>
+  <testcase name="testPriceCalculation[Булочка цена=2, Ингредиент цена=1, Ожидаемая сумма=5]" classname="BurgerPriceTest" time="0.009"/>
+  <testcase name="testPriceCalculation[Булочка цена=1, Ингредиент цена=2, Ожидаемая сумма=4]" classname="BurgerPriceTest" time="0.004"/>
 </testsuite>
